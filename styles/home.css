@@ -22,6 +22,7 @@
 
 #page-home header a {
     display: flex;
+    align-items: center;
     color: var(--title-color);
     font-weight: 700;
 }
