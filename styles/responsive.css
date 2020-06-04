@@ -55,6 +55,10 @@
     #page-home main a strong {
         font-size: 14px;
     }
+
+    #page-search-results main .cards {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 900px) {
@@ -76,5 +80,9 @@
 
     #page-home main {
         align-items: center;
+    }
+
+    #page-search-results main .cards {
+        grid-template-columns: 1fr 1fr;
     }
 }
